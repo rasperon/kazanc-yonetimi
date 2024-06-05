@@ -1,31 +1,30 @@
-# Kazanç Yönetimi Uygulaması
-
+# Income Management Application / Kazanç Yönetimi Uygulaması
+This project is a revenue management application developed using Node.js and EJS. It is designed for both beginners and advanced users. This guide provides basic information about the project and explains the steps to run the project in a local environment.
 Bu proje, Node.js ve EJS kullanılarak geliştirilmiş bir kazanç yönetimi uygulamasıdır. Hem yeni başlayanlar hem de ileri düzey kullanıcılar için tasarlanmıştır. Bu rehber, proje ile ilgili temel bilgileri sağlar ve projeyi yerel bir ortamda çalıştırmak için adımları açıklar.
-
 ---
 
-## Kurulum
+## Installation / Kurulum
 
-1. Proje dosyalarını yerel bilgisayarınıza klonlayın:
+1. Clone the project files to your local machine / Proje dosyalarınızı yerel bilgisayarınıza klonlayın / Proje dosyalarını yerel bilgisayarınıza klonlayın:
 
 ```bash
 git clone https://github.com/rasperon/kazanc-yonetimi.git
 ```
-2. Proje dizinine gidin:
+2. Navigate to the project directory / Proje dizinine gidin:
 ```bash
 cd kazanc-yonetimi
 ```
-3. Gerekli bağımlılıkları yüklemek için aşağıdaki komutu çalıştırın:
+3. Install the necessary dependencies / Gerekli bağımlılıkları yüklemek için aşağıdaki komutu çalıştırın:
 ```bash
 npm i
 ```
-4. rasperon.js dosyasının 7. satırındaki kısma Mongo URL'nizi şifrenizle birlikte girin.
+4. Enter your Mongo URL along with your password in the specified section on line 7 of the `rasperon.js` file / `rasperon.js` dosyasının 7. satırındaki kısma Mongo URL'nizi şifrenizle birlikte girin.
 
-5. Ana dosya olan rasperon.js dosyasını çalıştırarak uygulamayı başlatın:
+5. Start the application by running the main file rasperon.js / Ana dosya olan rasperon.js dosyasını çalıştırarak uygulamayı başlatın:
 ```bash
 node rasperon.js
 ```
-Tarayıcınızda http://localhost:3000 adresine giderek uygulamayı görüntüleyin.
+View the application by going to http://localhost:3000 in your browser / Tarayıcınızda http://localhost:3000 adresine giderek uygulamayı görüntüleyin.
 
 ## License / Lisans
 
@@ -57,5 +56,6 @@ Bu proje MIT Lisansı altında lisanslanmıştır - ayrıntılar için [LICENSE]
 
 For any inquiries or collaborations, please contact us at: /
 Herhangi bir soru veya işbirliği için lütfen bize ulaşın: 
+
 [![Discord Presence](https://lanyard.cnrad.dev/api/1108799838876868738?animated=true)](https://discord.com/users/1108799838876868738)
 <center>
