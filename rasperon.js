@@ -2,9 +2,10 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const app = express();
+const { mongoUrl } = require('./config.json')
 
 // MongoDB'ye bağlan
-mongoose.connect('MONGO URL', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongoUrl', { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log('MongoDB bağlantısı başarılı'))
     .catch(err => console.error('MongoDB bağlantı hatası:', err));
 
