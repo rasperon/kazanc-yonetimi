@@ -5,7 +5,7 @@ const app = express();
 const { mongoUrl } = require('./config.json')
 
 // MongoDB'ye bağlan
-mongoose.connect('mongoUrl', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log('MongoDB bağlantısı başarılı'))
     .catch(err => console.error('MongoDB bağlantı hatası:', err));
 
